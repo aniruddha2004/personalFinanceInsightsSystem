@@ -30,10 +30,6 @@ An AI-powered **Personal Finance Insights System** using **LangChain with Agenti
 The system is designed using **multi-agent collaboration**:
 1. **Transaction Fetcher Agent** → Processes and stores transaction data.
 2. **Transaction Query Agent** → Retrieves data and decides the appropriate tool.
-3. **LangChain Tools**:
-   - **Summarization Tool** → Generates human-readable reports.
-   - **Pie Chart Tool** → Category-wise expense breakdown.
-   - **Line Chart Tool** → Time-based spending trends.
 
 **📌 Diagram:** *(Insert system architecture diagram here)*
 
@@ -42,30 +38,38 @@ The system is designed using **multi-agent collaboration**:
 ## 🚀 Installation & Setup
 
 ### **1️⃣ Clone the Repository**
+      ```bash
+      git clone https://github.com/aniruddha2004/personalFinanceInsightsSystem.git
+      ```
 
 ### **2️⃣ Set Up a Virtual Environment**
+      ```bash
+      python -m venv myenv
+      ```
 
 ### **3️⃣ Install Dependencies**
+      ```bash
+      pip install -r requirements.txt
+      ```
 
 ### **4️⃣ Configure MySQL Database**
 - Ensure MySQL is running.
-- Create a database and update `config.py` with your credentials.
+- Create a database named `finance_db`.
 
 ### **5️⃣ Set Up Environment Variables**
-Create a `.env` file and configure the required credentials.
+Create a `.env` file and configure the required credentials, as mentioned in the`.env.example` file.
 
 ---
 
 ## 🏃 Running the Application
 
 ### **1️⃣ Start the Backend Server**
-
-### **2️⃣ Run Transaction Fetcher Agent**
-
-### **3️⃣ Run Transaction Query Agent**
+      ```bash
+      python backend/app.py
+      ```
 
 ### **4️⃣ Open the Frontend**
-- Open `index.html` in your browser.
+- Open the link in your browser.
 - Upload a CSV file or enter transaction data.
 - Query your financial insights.
 
@@ -78,8 +82,6 @@ Create a `.env` file and configure the required credentials.
 | `/process`     | POST   | Upload transactions (CSV, text, or URL) |
 | `/query`       | POST   | Query transactions for insights |
 | `/`            | GET    | Open the upload page |
-
-### **Example API Request**
 
 ---
 
@@ -101,19 +103,6 @@ Create a `.env` file and configure the required credentials.
 
 ---
 
-## 📜 Sequence Diagrams
-
-### **1️⃣ Transaction Fetcher Agent**
-*(Insert sequence diagram here)*
-
-### **2️⃣ Transaction Query Agent**
-*(Insert sequence diagram here)*
-
-### **3️⃣ Full System Flow**
-*(Insert full system sequence diagram here)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Backend** → Python, Flask
@@ -132,33 +121,10 @@ Create a `.env` file and configure the required credentials.
 
 ---
 
-## 🤝 Contribution Guidelines
-💡 Want to contribute? Follow these steps:
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit changes and push to your fork.
-4. Create a Pull Request 🚀.
-
----
-
-## 📝 License
-This project is licensed under the **MIT License**.
-
----
-
-## 💡 Acknowledgments
-- **LangChain Documentation**
-- **Matplotlib for Visualizations**
-- **Flask & MySQL for Backend & Storage**
-- **Inspiration from AI-powered financial tools**
-
----
-
 ## 📞 Contact
 💬 **For queries & discussions**:
-- **Email**: your@email.com
-- **GitHub Issues**: Open an Issue.
-- **LinkedIn**: Your Profile.
+- **Email**: [aniruddhag2004@gmail.com](mailto:aniruddhag2004@gmail.com)
+- **LinkedIn**: [Aniruddha Ghosh](https://www.linkedin.com/in/aniruddha-ghosh-87428824b/)
 
 ---
 
