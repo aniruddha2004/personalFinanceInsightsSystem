@@ -38,19 +38,13 @@ The system is designed using **multi-agent collaboration**:
 ## 🚀 Installation & Setup
 
 ### **1️⃣ Clone the Repository**
-      ```bash
       git clone https://github.com/aniruddha2004/personalFinanceInsightsSystem.git
-      ```
 
 ### **2️⃣ Set Up a Virtual Environment**
-      ```bash
       python -m venv myenv
-      ```
 
 ### **3️⃣ Install Dependencies**
-      ```bash
       pip install -r requirements.txt
-      ```
 
 ### **4️⃣ Configure MySQL Database**
 - Ensure MySQL is running.
@@ -64,9 +58,7 @@ Create a `.env` file and configure the required credentials, as mentioned in the
 ## 🏃 Running the Application
 
 ### **1️⃣ Start the Backend Server**
-      ```bash
       python backend/app.py
-      ```
 
 ### **4️⃣ Open the Frontend**
 - Open the link in your browser.
