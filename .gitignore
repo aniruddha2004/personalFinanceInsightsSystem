@@ -1,0 +1,14 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore temporary files
+temp_files/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore generated files
+generated_charts/

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Transaction Processing System</h2>
+        
+        <!-- Text Input for CSV Data or URL -->
+        <label for="textInput">Enter CSV Data or URL:</label>
+        <textarea id="textInput" rows="4" placeholder="Enter CSV data or a URL here..."></textarea>
+        
+        <!-- File Upload Input -->
+        <label for="fileInput">Or Upload a CSV File:</label>
+        <input type="file" id="fileInput" accept=".csv">
+        
+        <!-- Submit Button -->
+        <button onclick="submitData()">Process</button>
+
+        <!-- Response Display -->
+        <div id="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

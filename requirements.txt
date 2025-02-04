@@ -1,0 +1,9 @@
+mysql-connector-python
+langchain
+langchain_core
+langchain-ollama
+flask
+flask-cors
+matplotlib
+pandas
+python-dotenv
